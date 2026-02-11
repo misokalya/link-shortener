@@ -2,3 +2,4 @@
 2- Add link stats on user dashboard.
 3- Add page navigation on login, register.
 4- Add user stats on admin dashboard: total links, total users
+5- Fix production server rerouting.
