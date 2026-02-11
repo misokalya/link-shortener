@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <form method="POST"
       class="bg-white text-black p-8 rounded-xl w-96 shadow-2xl animate-fadeIn">
 
-    <h2 class="text-2xl mb-4 text-[#d43d26]">
+    <h2 class="text-2xl mb-4 text-[#02021f]">
         <i class="fa-solid fa-user-plus"></i> Create Account
     </h2>
 

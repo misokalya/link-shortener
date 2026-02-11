@@ -2,14 +2,15 @@
 
 <div class="flex items-center justify-center h-screen text-center animate-fadeIn">
     <div>
-        <h1 class="text-5xl font-bold mb-6 text-[#d43d26]">
-            <i class="fa-solid fa-link"></i> Shorten Your Links
-        </h1>
-        <p class="mb-8 text-lg">Simple. Fast. Lightweight.</p>
+        
+        <div align="center">
+            <img src="assets/logo.png" alt="logo" width="450px">
+        </div>
+        <p class="mb-8 text-lg text-[#02021f]">Shorten your links!</p>
         <a href="register.php" class="btn-primary px-6 py-3 rounded-lg mr-4">
-            Get Started
+            Sign Up
         </a>
-        <a href="login.php" class="border border-white px-6 py-3 rounded-lg">
+        <a href="login.php" class="border border-[#02021f] px-6 py-3 rounded-lg text-[#02021f]">
             Login
         </a>
     </div>

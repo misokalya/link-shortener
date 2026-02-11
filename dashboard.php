@@ -12,7 +12,7 @@ $result = $conn->query("SELECT * FROM links WHERE user_id=$user_id ORDER BY id D
 
 <div class="container mx-auto p-8">
 
-<h2 class="text-3xl text-[#d43d26] mb-6">
+<h2 class="text-3xl text-[#02021f] mb-6">
     <i class="fa-solid fa-chart-line"></i> My Links
 </h2>
 
