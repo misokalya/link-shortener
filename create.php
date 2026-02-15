@@ -13,7 +13,7 @@ function generateCode($length = 5) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $original = $_POST['url'];
-    $short = 'miso.ct.ws/'.generateCode();
+    $short = generateCode();
     $user_id = $_SESSION['user_id'];
 
     $stmt = $conn->prepare("INSERT INTO links (user_id,original_url,short_code) VALUES (?,?,?)");
